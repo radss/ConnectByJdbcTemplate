@@ -3,7 +3,7 @@
   
 <h1>Employees List</h1>  
 <table border="2" width="70%" cellpadding="2">  
-<tr><th>Id</th><th>firstnames</th><th>lastnames</th></tr>  
+<tr><th>Ids</th><th>Firstnames</th><th>Lastnames</th></tr>  
    <!-- Cyklus forEach. Pro kazdy objekt emp (sklada se z id, name, salary, designation) jsou moznosti (edit, delete) -->
    <c:forEach var="emp" items="${list}">   
    <tr>  
